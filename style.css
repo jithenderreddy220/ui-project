@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  background-color: rgb(121, 118, 118);
+  position: static;
+}
+header nav {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header span {
+  font-size: 30px;
+  text-shadow: 2px solid gainsboro;
+  color: blue;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 300px;
+  color: white;
+}
+header li {
+  padding: 10px;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header ul li a :hover {
+  color: red;
+}
+
+section {
+  margin-top: 20px;
+}
+section img {
+  width: 95%;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
